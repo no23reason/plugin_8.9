@@ -218,6 +218,7 @@ const changeFilterDashboard: CustomDashboardWidgetComponent = () => {
             <button onClick={changeDashboardDateFilterSelection}>Change date filter selection</button>
             <button onClick={resetDashboardDateFilter}>Clear date filter selection</button>
             <button onClick={changeMultipleFilters}>Change multiple filters at once</button>
+            AFTER WEBPACK UPGRADE
         </div>
     );
 };
@@ -239,7 +240,7 @@ export class Plugin extends DashboardPluginV1 {
      * Defines gauge chart min/max values label visibility.
      */
     public showLabels: boolean = true;
-   
+
 
     public onPluginLoaded(_ctx: DashboardContext, _parameters?: string): Promise<void> | void {
 
@@ -306,7 +307,7 @@ export class Plugin extends DashboardPluginV1 {
                         },
                     ),
                 ),
-                
+
             );
         });
 
@@ -401,7 +402,7 @@ export class Plugin extends DashboardPluginV1 {
             console.log("### Sharing permission change: ", evt);
         });
     }
-    
+
 
     public onPluginUnload(_ctx: DashboardContext): Promise<void> | void {
         /*
