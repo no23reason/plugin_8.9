@@ -20,7 +20,7 @@ const entryPoint: PluginEntryPoint = {
     displayName: packageJson.name,
     version: packageJson.version,
     minEngineVersion: "bundled",
-    maxEngineVersion: "bundled",
+    // maxEngineVersion: "bundled",
     // These two must fit the values in the webpack config. Do not edit them unless you know what you are doing
     engineKey: `./${metadataJson.MODULE_FEDERATION_NAME}_ENGINE`,
     pluginKey: `./${metadataJson.MODULE_FEDERATION_NAME}_PLUGIN`,
