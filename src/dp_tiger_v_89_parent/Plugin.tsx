@@ -218,7 +218,7 @@ const changeFilterDashboard: CustomDashboardWidgetComponent = () => {
             <button onClick={changeDashboardDateFilterSelection}>Change date filter selection</button>
             <button onClick={resetDashboardDateFilter}>Clear date filter selection</button>
             <button onClick={changeMultipleFilters}>Change multiple filters at once</button>
-            AFTER WEBPACK UPGRADE and unique and expose
+            AFTER WEBPACK UPGRADE and unique and expose and strict and version
         </div>
     );
 };
